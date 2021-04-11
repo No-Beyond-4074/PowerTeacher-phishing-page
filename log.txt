@@ -1,0 +1,3 @@
+{Log Cleared 4/11/2021}
+UsrName=This is the username password=This is the password
+                

