@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30"
+   height="30"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91pre2 r13516"
+   viewBox="0 0 30 30.000001"
+   sodipodi:docname="absent-inverted30x30.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="7.9653415"
+     inkscape:cy="11.33068"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     width="31px"
+     inkscape:snap-nodes="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3337" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1022.3622)">
+    <circle
+       style="fill:#3dbc64;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4254"
+       cx="14.999999"
+       cy="1037.3622"
+       r="14" />
+    <g
+       transform="matrix(0.74719724,0,0,0.74719724,-366.79536,655.51078)"
+       id="g3813"
+       style="fill:#ffffff;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 508,499 6,0 c 2.21,0 3,0.79 3,3 0,2.21 -0.79,4 -3,4 l -6,0 c -2.21,0 -3,-1.79 -3,-4 0,-2.21 0.79,-3 3,-3 z"
+         id="path3815"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <rect
+         width="2"
+         height="6"
+         x="507"
+         y="504"
+         id="rect3817"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <rect
+         width="2"
+         height="6"
+         x="513"
+         y="504"
+         id="rect3819"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 504,515 c 0,0 -1.05336,-0.87288 -1.06,-2 -0.007,-1.12712 1.27155,-3.51743 2.06,-4 0.78845,-0.48257 11.29178,-0.42637 12,0 0.70822,0.42637 2,2.88197 2,4 0,1.11803 -1,2 -1,2 z"
+         id="polygon3821"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <rect
+         width="2"
+         height="9"
+         x="516"
+         y="514"
+         id="rect3823"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <rect
+         width="2"
+         height="9"
+         x="504"
+         y="514"
+         id="rect3825"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <rect
+         width="2"
+         height="6"
+         x="507"
+         y="514"
+         id="rect3827"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+      <rect
+         width="2"
+         height="6"
+         x="513"
+         y="514"
+         id="rect3829"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+    </g>
+  </g>
+</svg>
