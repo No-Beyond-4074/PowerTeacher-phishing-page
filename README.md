@@ -1,4 +1,6 @@
 # PowerTeacher-phishing-page
+![Uploading example.gif…]()
+
 This is a powerschool phishing page I made a few years ago. I've decided to release the code here publicly as a warning about the uses and dangers of phishing attacks. 
 
 I'm hosting a site at powerteachers.c1.biz as a demo of what it looks like and how it functions. DO NOT USE THIS SITE TO ACTUALLY TRY AND STEAL PASSWORDS! Host it yourself if you intend to use it for those purposes. What you host yourself is your buisness, but I kindly ask that you don't use my site for actual phishing attacks. You can host it using biz.nf, ngrok, or other tools for free web hosting. In biz.nf (what I tested this on), it's just a matter of creating a free subdomain and uploading the files and folders in this github project. 
