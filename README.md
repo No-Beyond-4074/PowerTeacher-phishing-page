@@ -1,5 +1,5 @@
 # PowerTeacher-phishing-page
-![Uploading example.gif…]()
+![example](https://user-images.githubusercontent.com/82338135/114411108-e5949480-9b79-11eb-80c2-6e7d0d1076da.gif)
 
 This is a powerschool phishing page I made a few years ago. I've decided to release the code here publicly as a warning about the uses and dangers of phishing attacks. 
 
